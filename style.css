@@ -241,7 +241,9 @@ border-bottom:none ;
     background: white;
     margin-left:20px; 
     border-radius: 15px;
-    padding: 5px
+    padding: 5px;
+   
+
 }
 
 
@@ -250,26 +252,28 @@ border-bottom:none ;
     padding: 10px;
     border: 1px solid cornflowerblue;
     border-radius: 15px;
-    height: 378px;
-
+    height: 370px;
+    
 }
 
 .experiencia-conteudo .skils .logo-experiencia{
    
     background: cornflowerblue;
   width: 70px;
+ 
 }
 
 .experiencia-conteudo .skils .skill{
     font-size: 1em;
-    margin-top:20px
-    
-    
 }
+
+
+
 .skill span{
   margin:20px;
     color:   rgb(72, 101, 155);
 }
+
 
 
 .linha-principal{
@@ -277,7 +281,8 @@ border-bottom:none ;
     height: 8px;
     margin: 10px 25px;
     background: rgb(72, 101, 155);
-    border-radius: 15px;
+
+
 }
 
 .linha-fundo{
@@ -291,11 +296,36 @@ border-bottom:none ;
 
 .skill-explanation{
 width: 100%;
-border: 1px solid red;
 display: flex;
+height: 140px;
+
+
+
 }
 
-.explanation-container{
-    width: 200px;
-    border: 1px solid red
+.explanation-container:nth-child(3){position: relative;
+   left: 240px;
+   bottom: 129px
+
 }
+
+
+.explanation-container{
+    width: 250px;   
+
+}
+
+.explanation-container h3{
+    
+}
+
+
+.skils hr{
+    border: 1px solid cornflowerblue;
+    opacity: 0.4;
+    border-radius: 15px;
+    margin-top: 20px
+}
+
+
+
