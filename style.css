@@ -1,0 +1,301 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500&display=swap');
+
+body{margin: 0;
+    font-family:'Roboto Mono', monospace; 
+}
+#container{width: 100%;
+    height: 100vh;
+    display: flex;
+    
+}
+
+#lado1{
+width: 200px;
+padding: 20px;
+ height: 101vh;   
+background: cornflowerblue;
+
+}
+
+#lado2{
+width: 100%;
+height: 105vh;
+
+
+}
+
+
+.conteudo1{
+margin-top:px; 
+
+}
+
+.perfil{
+
+width: 100px;
+height: 90px;
+background:rgb(72, 101, 155);
+border-radius:50%;
+
+}
+
+.perfil img{width: 70px;
+position:relative;
+left: 15px;
+top:10px}
+
+.logo h2{
+font-size: 1.6em;
+letter-spacing: 2px;
+color: aliceblue;
+
+}
+
+.logo .caixa{
+position: absolute;
+width: 35px;
+height: 35px;
+border: 1px solid orange;
+left: 166px;
+top: 170px
+}
+
+.logo span{margin-left: 70px; 
+position: relative;
+bottom: 15px;
+letter-spacing: 3px;
+border-bottom:solid 1px white ;
+opacity:0.8 ;
+}
+
+.inf{
+font-size: 0.8em;
+margin-top: 60px}
+
+.informacoes{margin-top: 20px;
+padding:10px;
+border-radius: 15px;
+
+}
+
+.informacoes h3{color:aliceblue;
+font-size: 1.2em;
+margin-left:20px }
+
+.informacoes-icons {display: flex;
+position: relative;
+}
+
+.informacoes-icons img{width: 15px;
+height: 15px;
+position: absolute;
+bottom: 17px
+}
+
+.informacoes:hover{background:rgb(72, 101, 155);
+transition: 0.3s }
+
+.informacoes hr{ border:dotted 1px orange;
+opacity: 0.6}
+
+.icons-inf{margin-top: 20px;
+}
+
+.icon img{width: 20px;
+margin-top: 5px}
+
+.icon a{text-decoration: none; 
+color:black;
+
+transition: 0.3s
+}
+
+
+.icon a:hover{
+border-bottom:1px solid white;
+color: white
+}
+
+/*Lado2*/
+
+#lado2 .conteudo-header{
+height: 350px;
+background:rgb(72, 101, 155);
+text-align: center;
+
+
+}
+
+
+.header-logo{width: 100%;
+padding-top: 80px;
+
+
+}
+
+.header-logo h1{
+color:aliceblue;
+font-size: 2.5em;
+font-weight: 500;
+margin-top: -2px
+}
+
+.header-logo span{
+font-size: 1.3em;
+color:  rgb(169, 188, 223);
+
+
+}
+
+.header-logo fieldset{border:none;
+border-top: 1px solid white;
+width: 75%;
+margin: 0 auto
+
+}
+
+.header-logo legend{
+color: white;
+opacity: 0.8;
+padding: 0px 20px;
+letter-spacing: 3px;
+}
+
+
+.contatos-header{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.contatos-header .contato{width: 305px;
+color: white;
+opacity: 0.8;   
+
+}
+
+.contatos-header .contato p{
+margin-top:-1px 
+}
+
+.contatos-header .contato .borda-contato{
+width:100% ;
+height:100px;
+border: 1px solid white;
+border-top: none;
+border-bottom:none ;
+}
+
+.container-principal{width: 100%;
+    height:68.8vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center
+}
+
+.container-principal section{
+    width: 750px;
+    height: 500px;
+    background: rgb(72, 101, 155);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius:15px; ;
+   
+}
+
+.container-principal .main-logo{
+    height: 50px;
+    margin: 20px;
+    background: white;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.container-principal .main-logo .cor-logo{
+    background: orange;
+    opacity: 0.8;
+    width: 60px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+
+.conteudo-main .titulo-logo{
+    width: 100%;
+}
+
+.conteudo-main  .titulo-logo span{
+  margin-left: 20px;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.experiencia-conteudo{
+    width: 710px;
+    height: 390px;
+    background: white;
+    margin-left:20px; 
+    border-radius: 15px;
+    padding: 5px
+}
+
+
+.experiencia-conteudo .skils{
+
+    padding: 10px;
+    border: 1px solid cornflowerblue;
+    border-radius: 15px;
+    height: 378px;
+
+}
+
+.experiencia-conteudo .skils .logo-experiencia{
+   
+    background: cornflowerblue;
+  width: 70px;
+}
+
+.experiencia-conteudo .skils .skill{
+    font-size: 1em;
+    margin-top:20px
+    
+    
+}
+.skill span{
+  margin:20px;
+    color:   rgb(72, 101, 155);
+}
+
+
+.linha-principal{
+    width: 150px;
+    height: 8px;
+    margin: 10px 25px;
+    background: rgb(72, 101, 155);
+    border-radius: 15px;
+}
+
+.linha-fundo{
+    width: 130px;
+    height: 5px;
+    margin-top: 4px;
+    background-color:   cornflowerblue;
+    border-radius: 15px
+}
+
+
+.skill-explanation{
+width: 100%;
+border: 1px solid red;
+display: flex;
+}
+
+.explanation-container{
+    width: 200px;
+    border: 1px solid red
+}
